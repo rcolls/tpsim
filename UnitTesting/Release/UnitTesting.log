@@ -1,0 +1,37 @@
+﻿Build started 07/09/2014 12:38:08.
+     1>Project "H:\workspace\FinalProject\tpsim\UnitTesting\UnitTesting.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\UnitTest\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\UnitTesting.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /FC /errorReport:prompt UnitTestConfigFileReader.cpp UnitTestCore.cpp UnitTestFactoryMemModel.cpp UnitTestFactoryProbDist.cpp UnitTestFactoryTPStrategy.cpp UnitTestMemModelDemo.cpp UnitTestOutputResults.cpp UnitTestProbDistBernoulli.cpp UnitTestProbDistConstant.cpp UnitTestProbDistNormal.cpp UnitTestProbDistPoisson.cpp UnitTestProcess.cpp UnitTestThread.cpp UnitTestTPStrategyDemo.cpp
+         UnitTestConfigFileReader.cpp
+     1>h:\workspace\finalproject\tpsim\unittesting\unittestconfigfilereader.cpp(3): fatal error C1083: Cannot open include file: 'ConfigFileReader.h': No such file or directory
+         UnitTestCore.cpp
+     1>h:\workspace\finalproject\tpsim\unittesting\unittestcore.cpp(5): fatal error C1083: Cannot open include file: 'Thread.h': No such file or directory
+         UnitTestFactoryMemModel.cpp
+     1>h:\workspace\finalproject\tpsim\unittesting\unittestfactorymemmodel.cpp(3): fatal error C1083: Cannot open include file: 'FactoryMemModel.h': No such file or directory
+         UnitTestFactoryProbDist.cpp
+     1>h:\workspace\finalproject\tpsim\unittesting\unittestfactoryprobdist.cpp(3): fatal error C1083: Cannot open include file: 'FactoryProbDist.cpp': No such file or directory
+         UnitTestFactoryTPStrategy.cpp
+     1>h:\workspace\finalproject\tpsim\unittesting\unittestfactorytpstrategy.cpp(3): fatal error C1083: Cannot open include file: 'FactoryTPStrategy.cpp': No such file or directory
+         UnitTestMemModelDemo.cpp
+     1>h:\workspace\finalproject\tpsim\unittesting\unittestmemmodeldemo.cpp(3): fatal error C1083: Cannot open include file: 'MemModelDemo.h': No such file or directory
+         UnitTestOutputResults.cpp
+     1>h:\workspace\finalproject\tpsim\unittesting\unittestoutputresults.cpp(3): fatal error C1083: Cannot open include file: 'OutputResults.cpp': No such file or directory
+         UnitTestProbDistBernoulli.cpp
+     1>h:\workspace\finalproject\tpsim\unittesting\unittestprobdistbernoulli.cpp(3): fatal error C1083: Cannot open include file: 'ProbDistBernoulli.h': No such file or directory
+         UnitTestProbDistConstant.cpp
+     1>h:\workspace\finalproject\tpsim\unittesting\unittestprobdistconstant.cpp(3): fatal error C1083: Cannot open include file: 'ProbDistConstant.h': No such file or directory
+         UnitTestProbDistNormal.cpp
+     1>h:\workspace\finalproject\tpsim\unittesting\unittestprobdistnormal.cpp(3): fatal error C1083: Cannot open include file: 'ProbDistNormal.h': No such file or directory
+         UnitTestProbDistPoisson.cpp
+     1>h:\workspace\finalproject\tpsim\unittesting\unittestprobdistpoisson.cpp(3): fatal error C1083: Cannot open include file: 'ProbDistPoisson.h': No such file or directory
+         UnitTestProcess.cpp
+     1>h:\workspace\finalproject\tpsim\unittesting\unittestprocess.cpp(4): fatal error C1083: Cannot open include file: 'Process.cpp': No such file or directory
+         UnitTestThread.cpp
+     1>h:\workspace\finalproject\tpsim\unittesting\unittestthread.cpp(3): fatal error C1083: Cannot open include file: 'Thread.h': No such file or directory
+         UnitTestTPStrategyDemo.cpp
+     1>h:\workspace\finalproject\tpsim\unittesting\unittesttpstrategydemo.cpp(3): fatal error C1083: Cannot open include file: 'TPStrategyDemo.cpp': No such file or directory
+     1>Done Building Project "H:\workspace\FinalProject\tpsim\UnitTesting\UnitTesting.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.53

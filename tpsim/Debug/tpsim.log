@@ -1,0 +1,207 @@
+﻿Build started 07/09/2014 12:45:29.
+     1>Project "H:\workspace\FinalProject\tpsim\tpsim\tpsim.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\tpsim.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ConfigFileReader.cpp FactoryMemModel.cpp FactoryProbDist.cpp FactoryTPStrategy.cpp MemModel.cpp MemModelDemo.cpp OS.cpp Process.cpp TPStrategyDemo.cpp Thread.cpp tpsim.cpp
+         tpsim.cpp
+         Thread.cpp
+         OS.cpp
+     1>h:\workspace\finalproject\tpsim\tpsim\os.cpp(58): warning C4018: '<' : signed/unsigned mismatch
+         MemModelDemo.cpp
+         FactoryTPStrategy.cpp
+         FactoryProbDist.cpp
+         FactoryMemModel.cpp
+         ConfigFileReader.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(713): warning C4150: deletion of pointer to incomplete type 'MemModel'; no destructor called
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.h(7) : see declaration of 'MemModel'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=MemModel,
+                     _Ux=MemModel
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=MemModel,
+                     _Ux=MemModel
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(499) : while compiling class template member function 'std::shared_ptr<_Ty>::shared_ptr(std::nullptr_t)'
+                 with
+                 [
+                     _Ty=MemModel
+                 ]
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.cpp(189) : see reference to function template instantiation 'std::shared_ptr<_Ty>::shared_ptr(std::nullptr_t)' being compiled
+                 with
+                 [
+                     _Ty=MemModel
+                 ]
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.cpp(189) : see reference to class template instantiation 'std::shared_ptr<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=MemModel
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(713): warning C4150: deletion of pointer to incomplete type 'ProbDist'; no destructor called
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.h(8) : see declaration of 'ProbDist'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=ProbDist,
+                     _Ux=ProbDist
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=ProbDist,
+                     _Ux=ProbDist
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(499) : while compiling class template member function 'std::shared_ptr<_Ty>::shared_ptr(std::nullptr_t)'
+                 with
+                 [
+                     _Ty=ProbDist
+                 ]
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.cpp(214) : see reference to function template instantiation 'std::shared_ptr<_Ty>::shared_ptr(std::nullptr_t)' being compiled
+                 with
+                 [
+                     _Ty=ProbDist
+                 ]
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.cpp(214) : see reference to class template instantiation 'std::shared_ptr<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=ProbDist
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(713): warning C4150: deletion of pointer to incomplete type 'TPStrategy'; no destructor called
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.h(10) : see declaration of 'TPStrategy'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=TPStrategy,
+                     _Ux=TPStrategy
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=TPStrategy,
+                     _Ux=TPStrategy
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(499) : while compiling class template member function 'std::shared_ptr<_Ty>::shared_ptr(std::nullptr_t)'
+                 with
+                 [
+                     _Ty=TPStrategy
+                 ]
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.cpp(240) : see reference to function template instantiation 'std::shared_ptr<_Ty>::shared_ptr(std::nullptr_t)' being compiled
+                 with
+                 [
+                     _Ty=TPStrategy
+                 ]
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.cpp(240) : see reference to class template instantiation 'std::shared_ptr<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=TPStrategy
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(161): warning C4150: deletion of pointer to incomplete type 'MemModel'; no destructor called
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.h(7) : see declaration of 'MemModel'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(160) : while compiling class template member function 'void std::_Ref_count<_Ty>::_Destroy(void)'
+                 with
+                 [
+                     _Ty=MemModel
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(711) : see reference to class template instantiation 'std::_Ref_count<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=MemModel
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=MemModel,
+                     _Ux=MemModel
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=MemModel,
+                     _Ux=MemModel
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(161): warning C4150: deletion of pointer to incomplete type 'ProbDist'; no destructor called
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.h(8) : see declaration of 'ProbDist'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(160) : while compiling class template member function 'void std::_Ref_count<_Ty>::_Destroy(void)'
+                 with
+                 [
+                     _Ty=ProbDist
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(711) : see reference to class template instantiation 'std::_Ref_count<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=ProbDist
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=ProbDist,
+                     _Ux=ProbDist
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=ProbDist,
+                     _Ux=ProbDist
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(161): warning C4150: deletion of pointer to incomplete type 'TPStrategy'; no destructor called
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.h(10) : see declaration of 'TPStrategy'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(160) : while compiling class template member function 'void std::_Ref_count<_Ty>::_Destroy(void)'
+                 with
+                 [
+                     _Ty=TPStrategy
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(711) : see reference to class template instantiation 'std::_Ref_count<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=TPStrategy
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=TPStrategy,
+                     _Ux=TPStrategy
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=TPStrategy,
+                     _Ux=TPStrategy
+                 ]
+         Generating Code...
+         Compiling...
+         TPStrategyDemo.cpp
+     1>h:\workspace\finalproject\tpsim\tpsim\tpstrategydemo.cpp(66): warning C4018: '>' : signed/unsigned mismatch
+         Process.cpp
+         MemModel.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\workspace\FinalProject\tpsim\Debug\tpsim.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\workspace\FinalProject\tpsim\Debug\tpsim.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\workspace\FinalProject\tpsim\Debug\tpsim.lib" /MACHINE:X86 Debug\ConfigFileReader.obj
+         Debug\Core.obj
+         Debug\FactoryMemModel.obj
+         Debug\FactoryProbDist.obj
+         Debug\FactoryTPStrategy.obj
+         Debug\MemModel.obj
+         Debug\MemModelDemo.obj
+         Debug\OS.obj
+         Debug\OutputResults.obj
+         Debug\ProbDist.obj
+         Debug\ProbDistBernoulli.obj
+         Debug\ProbDistConstant.obj
+         Debug\ProbDistNormal.obj
+         Debug\ProbDistPoisson.obj
+         Debug\Process.obj
+         Debug\SimProbabilities.obj
+         Debug\stdafx.obj
+         Debug\Thread.obj
+         Debug\tpsim.obj
+         Debug\TPStrategy.obj
+         Debug\TPStrategyDemo.obj
+         tpsim.vcxproj -> H:\workspace\FinalProject\tpsim\Debug\tpsim.exe
+     1>Done Building Project "H:\workspace\FinalProject\tpsim\tpsim\tpsim.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.68

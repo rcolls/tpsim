@@ -1,0 +1,102 @@
+﻿Build started 07/09/2014 12:45:37.
+     1>Project "H:\workspace\FinalProject\tpsim\UnitTesting\UnitTesting.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\UnitTesting.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\UnitTesting.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /FC /errorReport:prompt UnitTestConfigFileReader.cpp UnitTestCore.cpp UnitTestFactoryMemModel.cpp UnitTestFactoryProbDist.cpp UnitTestFactoryTPStrategy.cpp UnitTestMemModelDemo.cpp UnitTestOutputResults.cpp UnitTestProbDistBernoulli.cpp UnitTestProbDistConstant.cpp UnitTestProbDistNormal.cpp UnitTestProbDistPoisson.cpp UnitTestProcess.cpp UnitTestThread.cpp UnitTestTPStrategyDemo.cpp
+         UnitTestTPStrategyDemo.cpp
+     1>h:\workspace\finalproject\tpsim\tpsim\tpstrategydemo.cpp(66): warning C4018: '>' : signed/unsigned mismatch
+         UnitTestThread.cpp
+         UnitTestProcess.cpp
+     1>h:\workspace\finalproject\tpsim\tpsim\os.cpp(58): warning C4018: '<' : signed/unsigned mismatch
+         UnitTestProbDistPoisson.cpp
+         UnitTestProbDistNormal.cpp
+         UnitTestProbDistConstant.cpp
+         UnitTestProbDistBernoulli.cpp
+         UnitTestOutputResults.cpp
+         UnitTestMemModelDemo.cpp
+         UnitTestFactoryTPStrategy.cpp
+         UnitTestFactoryProbDist.cpp
+         UnitTestFactoryMemModel.cpp
+         UnitTestCore.cpp
+         UnitTestConfigFileReader.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(713): warning C4150: deletion of pointer to incomplete type 'TPStrategy'; no destructor called
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.h(10) : see declaration of 'TPStrategy'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=TPStrategy,
+                     _Ux=TPStrategy
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=TPStrategy,
+                     _Ux=TPStrategy
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(499) : while compiling class template member function 'std::shared_ptr<_Ty>::shared_ptr(std::nullptr_t)'
+                 with
+                 [
+                     _Ty=TPStrategy
+                 ]
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.cpp(240) : see reference to function template instantiation 'std::shared_ptr<_Ty>::shared_ptr(std::nullptr_t)' being compiled
+                 with
+                 [
+                     _Ty=TPStrategy
+                 ]
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.cpp(240) : see reference to class template instantiation 'std::shared_ptr<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=TPStrategy
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(161): warning C4150: deletion of pointer to incomplete type 'TPStrategy'; no destructor called
+                 h:\workspace\finalproject\tpsim\tpsim\configfilereader.h(10) : see declaration of 'TPStrategy'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(160) : while compiling class template member function 'void std::_Ref_count<_Ty>::_Destroy(void)'
+                 with
+                 [
+                     _Ty=TPStrategy
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(711) : see reference to class template instantiation 'std::_Ref_count<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=TPStrategy
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=TPStrategy,
+                     _Ux=TPStrategy
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\memory(501) : see reference to function template instantiation 'void std::shared_ptr<_Ty>::_Resetp<_Ty>(_Ux *)' being compiled
+                 with
+                 [
+                     _Ty=TPStrategy,
+                     _Ux=TPStrategy
+                 ]
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\UnitTesting.res" UnitTesting.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\workspace\FinalProject\tpsim\Debug\UnitTesting.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\UnitTest\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\workspace\FinalProject\tpsim\Debug\UnitTesting.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\workspace\FinalProject\tpsim\Debug\UnitTesting.lib" /MACHINE:X86 /DLL Debug\UnitTesting.res
+         Debug\stdafx.obj
+         Debug\UnitTestConfigFileReader.obj
+         Debug\UnitTestCore.obj
+         Debug\UnitTestFactoryMemModel.obj
+         Debug\UnitTestFactoryProbDist.obj
+         Debug\UnitTestFactoryTPStrategy.obj
+         Debug\UnitTestMemModelDemo.obj
+         Debug\UnitTestOutputResults.obj
+         Debug\UnitTestProbDistBernoulli.obj
+         Debug\UnitTestProbDistConstant.obj
+         Debug\UnitTestProbDistNormal.obj
+         Debug\UnitTestProbDistPoisson.obj
+         Debug\UnitTestProcess.obj
+         Debug\UnitTestThread.obj
+         Debug\UnitTestTPStrategyDemo.obj
+            Creating library H:\workspace\FinalProject\tpsim\Debug\UnitTesting.lib and object H:\workspace\FinalProject\tpsim\Debug\UnitTesting.exp
+         UnitTesting.vcxproj -> H:\workspace\FinalProject\tpsim\Debug\UnitTesting.dll
+     1>Done Building Project "H:\workspace\FinalProject\tpsim\UnitTesting\UnitTesting.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.14

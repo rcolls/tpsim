@@ -1,0 +1,47 @@
+// Lines starting with double slash are ignored.
+// Blank lines are ignored.
+// First word on a line acts as the key value. All subsequent words are associated until the end of line.
+// Separate the data using as much whitespace as you like.
+
+
+
+// SPECIFY a memory model:  MemModel    [yourMemModel]   [constructorInput1] [constructorInput2] etc
+// eg:                      MemModel     MemModelDemo           10                   13
+
+// SPECIFY a thread placement strategy:  TPStrategy    [yourTPstrategy]   [constructorInput1] [constructorInput2] etc
+//eg                                     TPStrategy     TPStrategyDemo           migOn
+
+// SPECIFY probability distributions:        [(1) - (4) below]       [distributionID]  [constructorInput1] [constructorInput2] [constructorInput3] etc
+// eg                                   threadDurationDistribution         Normal               20                   6                random
+// (1) threadDurationDistribution
+// (2) noOfThreadsDistribution
+// (3) noOfProcessesDistribution
+// (4) newProcessCreationDistribution
+
+// SPECIFY output options:    [outputCoreLoad OR outputRunTimes]    [on  OR off]   [filename]    [otherInputs]
+// eg                                    outputCoreLoad                  on       CoreLoads.txt      1
+
+// SPECIFY primitives required for main():    [varName]   [value]  
+// e.g.                                     maxProcesses    20
+// (1) maxProcesses defines the maximum number of processes to be created
+// (2) maxRuntime   defines the maximum runtime (specified in simulation time)
+// (3) stepSize     defines the simulation timestep
+
+
+
+
+MemModel                     MemModelDemo  10 13
+
+TPStrategy                  TPStrategyDemo        migOn
+
+threadDurationDistribution     Normal      20    6   3401862510
+noOfThreadsDistribution        Constant    19
+noOfProcessesDistribution      Poisson     0.1       2951710052
+newProcessCreationDistribution Bernoulli   0.567       84448526
+
+outputCoreLoad      on       CoreLoads.txt      1
+outputRunTimes      on       ProcessInfo.txt
+
+maxProcesses  20
+maxRuntime    100
+stepSize      1.0

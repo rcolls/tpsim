@@ -1,0 +1,20 @@
+// Lines starting with double slash are ignored.
+// Blank lines are ignored.
+// First word on a line acts as the key value. All subsequent words are associated until the end of line.
+// Separate the data using as much whitespace as you like.
+
+maxProcesses  20
+maxRuntime    100
+stepSize      1.0
+
+MemModel                    
+
+TPStrategy 
+
+threadDurationDistribution     Normal     20    6   3401862510
+noOfThreadsDistribution        Constant    19
+noOfProcessesDistribution      
+newProcessCreationDistribution Bernoulli 0.5       84448526
+
+outputCoreLoad	             CoreLoads.txt        1
+outputRunTimes      on       ProcessInfo.txt

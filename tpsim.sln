@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tpsim", "tpsim\tpsim.vcxproj", "{69FE6879-2D50-4A68-AAD0-86A4785D7011}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTesting", "UnitTesting\UnitTesting.vcxproj", "{7A3532EB-9547-409C-8E2A-6F9268624048}"
+	ProjectSection(ProjectDependencies) = postProject
+		{69FE6879-2D50-4A68-AAD0-86A4785D7011} = {69FE6879-2D50-4A68-AAD0-86A4785D7011}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8A4F784-F220-4031-81AD-6596C2F9AE58}"
+	ProjectSection(SolutionItems) = preProject
+		Performance1.psess = Performance1.psess
+		Performance2.psess = Performance2.psess
+		Performance3.psess = Performance3.psess
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69FE6879-2D50-4A68-AAD0-86A4785D7011}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69FE6879-2D50-4A68-AAD0-86A4785D7011}.Debug|Win32.Build.0 = Debug|Win32
+		{69FE6879-2D50-4A68-AAD0-86A4785D7011}.Release|Win32.ActiveCfg = Release|Win32
+		{69FE6879-2D50-4A68-AAD0-86A4785D7011}.Release|Win32.Build.0 = Release|Win32
+		{7A3532EB-9547-409C-8E2A-6F9268624048}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A3532EB-9547-409C-8E2A-6F9268624048}.Debug|Win32.Build.0 = Debug|Win32
+		{7A3532EB-9547-409C-8E2A-6F9268624048}.Release|Win32.ActiveCfg = Release|Win32
+		{7A3532EB-9547-409C-8E2A-6F9268624048}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
